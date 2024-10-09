@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: black;
+}
+h1{
+    color: rgb(43, 255, 0);
+    text-align: center;
+}
+.msg{
+    margin: 10px;
+    color: rgb(43, 255, 0);
+    text-align: center;
+}
+.container{
+    /* border: 2px solid red; */
+    height: 80vmin;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 70vmin;
+    width: 70vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.box{
+    background-color: transparent;
+    border-radius: 2rem;
+    height: 18vmin;
+    border: 2px solid yellowgreen;
+    margin: 5px;
+    font-weight: bold;
+    color: azure;
+    font-size: 3rem;
+    width: 18vmin;
+    cursor: pointer;
+}
+.box:hover{
+    font-weight: bold;
+    color: greenyellow;
+    background-color: rgb(255, 255, 255, 0.2);
+}
+.btn{
+    display:block;
+    margin: auto;
+    font-size: 1rem;
+    color: rgb(0, 255, 64);
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid white;
+    padding: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    font-weight: bold;
+    color: rgb(125, 255, 4);
+    background-color: rgb(255, 255, 255, 0.1);
+}
+.btn2{
+    background-color: transparent;
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    font-size: 1rem;
+    color: yellowgreen;
+}
+.hide{
+    display: none;
+}
